@@ -1,0 +1,182 @@
+.page.home{
+	background-color: #000000;
+}
+
+.landing-section{
+	height: 700px;
+	position: relative;
+	border-bottom: 8px solid #222;
+	background: rgba(0,0,0,.4);
+	background-image: url('../../../assets/landing-image.jpg');
+}
+
+.nfLogo {
+  fill: #e50914;
+  line-height: normal;
+}
+
+.svg-icon-netflix-logo{
+	height: 36px;
+  width: 134px;
+  position: absolute;
+  top: 30px;
+  left: 80px;
+}
+
+.btn.sign-in{
+	background-color: #e50914;
+	color: white;
+	line-height: normal;
+  padding: 7px 17px;
+	position: absolute;
+  top: 30px;
+  right: 50px;
+}
+
+.landing-text{
+	position: absolute;
+	top: 30%;
+  left: 25%;
+  color: white;
+}
+
+.landing-text h1{
+	max-width: 640px;
+  font-size: 3.125rem;
+  margin: 0 auto;
+	font-family: 'Netflix Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
+}
+
+.landing-text h2{
+	font-size: 1.625rem;
+	margin: 1rem auto;
+}
+
+.landing-text h3{
+	font-size: 1.2rem;
+	padding: 20px 20px;
+}
+
+.email-address{
+	width: 450px;
+	height: 60px;
+	padding: 10px 10px;
+}
+
+.btn.get-started{
+	width: 230px;
+	background-color: #e50914;
+	color: white;
+	height: 60px;
+	border-radius: 0;
+	vertical-align: top;
+}
+
+.get-started-text{
+	display: block;
+	font-size: 1.625rem;
+}
+
+.animation-container{
+	position: relative;
+}
+
+.animation-container img{
+	position: relative;
+	z-index: 2;
+}
+
+.second-wrapper, .third-wrapper, .fourth-wrapper, .frequently-asked-questions{
+	border-bottom: 8px solid #222;
+}
+
+.video-animation{
+	position: absolute;
+  top: 20%;
+  left: 14%;
+}
+
+.mobile-animation{
+	position: relative;
+}
+
+.card-animation{
+	position: absolute;
+  left: 24%;
+  bottom: 8%;
+	border: 2px solid rgba(255,255,255,.25);
+  padding: 1.5em .75em;
+  width: 76%;
+  height: 100px;
+  border-radius: .75em;
+  background-color: #000;
+}
+
+.img-container{
+	margin-top: -12px;
+}
+
+.text{
+	position: relative;
+	color: white;
+	margin-left: 20px;
+}
+
+.downloading-text{
+	color: #0071eb;
+	font-size: .9em;
+	margin-top: -0.1rem;
+}
+
+.download-icon{
+	position: absolute;
+  left: 80%;
+  bottom: 20%;
+}
+
+.device-pile-in-video-animation{
+	width: 100%;
+  height: 100%;
+  max-width: 60%;
+  max-height: 47%;
+  position: absolute;
+  top: 7%;
+  left: 18%;
+}
+
+
+.our-story-card-video{
+	width: 100%;
+	height: 100%;
+}
+
+.second-wrapper, .fourth-wrapper{
+	position: relative;
+	color: white;
+	padding: 70px 45px;
+}
+
+.second-wrapper-h1, .fourth-wrapper-h1, .third-wrapper-h1{
+	font-size: 3.125rem;
+  line-height: 1.1;
+  margin-bottom: .5rem;
+  font-family: 'Netflix Sans';
+}
+
+.second-wrapper-h1-h2-container, .fourth-wrapper-h1-h2-container{
+	position: absolute;
+  top: 40%;
+  left: 15%;
+}
+
+.third-wrapper{
+	color: white;
+	padding: 70px 45px;
+}
+
+.third-wrapper-container{
+	width: 510px;
+  position: absolute;
+  top: 29%;
+  left: 31%;
+}

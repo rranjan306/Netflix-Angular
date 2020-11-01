@@ -1,0 +1,17 @@
+<div class="container">
+	<div class="row justify-content-center">
+		<h1>Frequently Asked Questions</h1>
+	</div>
+	<div class="title row" *ngFor="let question of questins$ | async">
+		<div class="question-title">
+			<div class="row align-items-center">
+				<div class="col-md-6">{{question.title}}</div>
+				<div class="col-md-6 text-right"><span [ngStyle]="{'font-size': '3rem', 'cursor': 'pointer'}" (click)="onParagraphToggle(question)">&#43;</span></div>
+			</div>
+		</div>
+		<div class="questin-answer" *ngIf="question.showParagraph">
+			<span class="answer-paragraph">{{question.answer}}</span>
+		</div>
+	</div>
+	<app-get-started></app-get-started>
+</div>
